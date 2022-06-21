@@ -1,0 +1,23 @@
+{
+    "classes": [
+        "grayText",
+        "width100",
+        "orangeText",
+        "fontweight100",
+        "orangeBtn",
+        "orangeBtndark",
+        "textAlignCenter",
+        "width90",
+        "width84",
+        "height100vh",
+        "navabar",
+        "footer",
+        "mainContainer",
+        "backgroundColorGrad",
+        "whitebg",
+        "height90vh",
+        "height0vh",
+        "height10vh",
+        "width80"
+    ]
+}

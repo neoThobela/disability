@@ -1,0 +1,87 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+$orange:#DD601E;
+$lightOrange:rgba(221, 96, 30, 0.12);
+$gray:#BABFC7;
+$white:white;
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.grayText{
+    color:$gray;
+    font-size:12px;
+}
+.width100{
+    width:100%;
+}
+.orangeText{
+    color:$orange;
+}
+.fontweight100{
+    font-weight:small ;
+}
+.orangeBtn{
+    border: $orange 1px solid !important;
+    border-radius: 83px!important;
+    color:$orange;
+    background-color: $lightOrange;
+}
+.orangeBtndark{
+    border: $orange 1px solid;
+    border-radius: 83px!important;
+    color:$white;
+    background-color: $orange;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.width90{
+    width: 90%;
+}
+.width84{
+width: 84px;
+}
+.height100vh{
+    height: 100vh;
+}
+.navabar{
+    height:52px;
+    border-bottom:#fbf2f2 0.1px solid;
+}
+.footer{
+    height:52px;
+}
+.mainContainer{
+    height:calc(80vh - 175px);
+}
+.backgroundColorGrad{
+ background-image: url("Assets/Web/Images/backgroundImage.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.whitebg{
+  background-color:white;  
+  height:80vh;
+}
+.height90vh{
+    height:90vh
+}
+.height0vh{
+    height:0vh
+}
+.height10vh{
+    height:10vh
+}
+.width80{
+    width:80%;
+}
