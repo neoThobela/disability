@@ -14,10 +14,19 @@
         "footer",
         "mainContainer",
         "backgroundColorGrad",
+        "icons",
+        "width50",
+        "width40",
         "whitebg",
         "height90vh",
         "height0vh",
         "height10vh",
-        "width80"
+        "width80",
+        "mat-horizontal-content-container",
+        "mat-step-header",
+        "mat-step-icon-selected",
+        "mat-step-icon-state-done",
+        "mat-step-icon-state-edit",
+        "mat-step-icon"
     ]
 }

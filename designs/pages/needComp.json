@@ -1,0 +1,95 @@
+[
+    {
+        "id": "sd_Y8tD969fju2JFvRU",
+        "type": "tab",
+        "createdDate": "2022-06-21T12:43:57.483Z",
+        "label": "needComp",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "needCompComponent"
+    },
+    {
+        "id": "sd_cA2NOpzG8y0IZ6ZO",
+        "type": "OnInit",
+        "z": "sd_Y8tD969fju2JFvRU",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "inputVariables": [
+            {
+                "key": "selection",
+                "defaultValue": {
+                    "type": "any",
+                    "value": ""
+                }
+            }
+        ],
+        "localVariables": [],
+        "outputVariables": [],
+        "functionName": "sd_cA2NOpzG8y0IZ6ZO",
+        "category": "Lifecycle Events",
+        "x": 45,
+        "y": 40,
+        "wires": [
+            [
+                "sd_68VLm4zp4rvk7eDo"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "needCompComponent"
+    },
+    {
+        "id": "sd_68VLm4zp4rvk7eDo",
+        "type": "PageVariables",
+        "z": "sd_Y8tD969fju2JFvRU",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "icons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "sd_68VLm4zp4rvk7eDo",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_9QIpXwUe9DvfBJBT"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_9QIpXwUe9DvfBJBT",
+        "type": "Script",
+        "z": "sd_Y8tD969fju2JFvRU",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "console.log('child', this.selection)\n// page.icons=[\n//     {\n//     \"icon\":\"home\",\n//     \"paragraph\":\"i need to protect my income or family\"\n//     },\n//      {\n//     \"icon\":\"group\",\n//     \"paragraph\":\"i need to protect my family\",\n//     },\n//      {\n//     \"icon\":\"account_balance_wallet\",\n//     \"paragraph\":\"i need to protect my income\",\n//     },\n// ]",
+        "functionName": "sd_9QIpXwUe9DvfBJBT",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

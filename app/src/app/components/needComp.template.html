@@ -1,0 +1,17 @@
+<div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true">
+  <div fxLayout="row wrap" class="width40" fxLayoutAlign="space-between center" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="30" fxLayoutGap="20px" fxLayoutAlign="center stretch" [fxShow]="true" *ngFor="let icon of selection">
+      <div fxLayout="row wrap" class="width100" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-icon class="icons">{{icon.icon}}</mat-icon>
+      </div>
+      <div fxLayout="row wrap" class="width100" fxLayoutAlign="center stretch" [fxShow]="true">
+        <p>
+          {{icon.paragraph}}
+        </p>
+      </div>
+      <div fxLayout="row wrap" class="width100" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-checkbox [required]="false"></mat-checkbox>
+      </div>
+    </div>
+  </div>
+</div>

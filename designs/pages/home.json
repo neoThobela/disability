@@ -17,13 +17,24 @@
         "viewType": "common",
         "nodeType": "start",
         "name": "",
+        "inputVariables": [],
+        "localVariables": [
+            {
+                "key": "protection_types",
+                "defaultValue": {
+                    "type": "any",
+                    "value": "[     {     \"icon\":\"home\",     \"paragraph\":\"i need to protect my income or family\"     },      {     \"icon\":\"group\",     \"paragraph\":\"i need to protect my family\",     },      {     \"icon\":\"account_balance_wallet\",     \"paragraph\":\"i need to protect my income\",     }, ]"
+                }
+            }
+        ],
+        "outputVariables": [],
         "functionName": "sd_1RGn6JrNr8iGTAyX",
         "category": "Lifecycle Events",
         "x": 30,
         "y": 30,
         "wires": [
             [
-                "sd_7mAWnCVBw7GkahgE"
+                "sd_eTy6eSHXGezqKmxG"
             ]
         ],
         "__n_excludedFromValidation__": {},
@@ -31,7 +42,32 @@
         "serviceName": "homeComponent"
     },
     {
-        "id": "sd_7mAWnCVBw7GkahgE",
+        "id": "sd_Bk457hcLoNj196vS",
+        "type": "Log",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "client-pages",
+        "nodeType": "flow",
+        "name": "",
+        "outputs": 0,
+        "logObject": "this.page",
+        "functionName": "sd_Bk457hcLoNj196vS",
+        "category": "General",
+        "x": 225,
+        "y": 40,
+        "wires": [],
+        "__ssdTypeInputs__": {
+            "logObject": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            }
+        },
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_eTy6eSHXGezqKmxG",
         "type": "PageVariables",
         "z": "sd_MGFKJUJF2FSc1BSu",
         "viewType": "pages",
@@ -40,11 +76,64 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
-        "functionName": "sd_7mAWnCVBw7GkahgE",
+        "globalVariables": [
+            {
+                "textIp": "protection_types",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[     {     \"icon\":\"home\",     \"paragraph\":\"i need to protect my income or family\"     },      {     \"icon\":\"group\",     \"paragraph\":\"i need to protect my family\",     },      {     \"icon\":\"account_balance_wallet\",     \"paragraph\":\"i need to protect my income\",     }, ]"
+                }
+            }
+        ],
+        "functionName": "sd_eTy6eSHXGezqKmxG",
         "category": "Function",
-        "x": 180,
-        "y": 30,
+        "x": 140,
+        "y": 40,
+        "wires": [
+            [
+                "sd_Bk457hcLoNj196vS"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_KJAelUN1dukb2TKe",
+        "type": "PageStart",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "choose_product",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "choose_product",
+        "category": "General",
+        "x": 45,
+        "y": 200,
+        "wires": [
+            [
+                "sd_AEMcD6fhKDQshuFN"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_AEMcD6fhKDQshuFN",
+        "type": "Script",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.protection_types = [\n  { \"icon\": \"accessible\", \"paragraph\": \"Disability Insurance\" },\n  { \"icon\": \"airport_shuttle\", \"paragraph\": \"Accidental Insurance\" },\n  { \"icon\": \"group_add\", \"paragraph\": \"Life Insurance\" },\n  { \"icon\": \"grain\", \"paragraph\": \"Discount Plans\" },\n  \n]\n",
+        "functionName": "sd_AEMcD6fhKDQshuFN",
+        "category": "Function",
+        "x": 200,
+        "y": 200,
         "wires": [
             []
         ],

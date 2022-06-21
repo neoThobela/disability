@@ -5,10 +5,25 @@
         <bh-toolbar class="width100"></bh-toolbar>
       </div>
       <div fxLayout="row wrap" class="mainContainer width100" fxLayoutAlign="start stretch" [fxShow]="true">
-        <bh-howCanWeHelp class="width100"></bh-howCanWeHelp>
+        <div fxLayout="column wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-stepper class="width100"></bh-stepper>
+          </div>
+          <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-howCanWeHelp class="width100"></bh-howCanWeHelp>
+          </div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngIf="page.protection_types">
+            <bh-needComp class="width100" [selection]="page.protection_types"></bh-needComp>
+          </div>
+        </div>
       </div>
-      <div fxLayout="row wrap" class="footer width100" fxLayoutAlign="start stretch" [fxShow]="true">
-        <bh-footer class="width100"></bh-footer>
+      <div fxLayout="row wrap" class="footer width100" fxLayoutAlign="end stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="end center" [fxShow]="true">
+          <div fxLayout="row wrap" class="width90" fxLayoutGap="1em" fxLayoutAlign="end stretch" [fxShow]="true">
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="width84 orangeBtn">Back</button></div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="width84 orangeBtndark" (click)="choose_product()">Next</button></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

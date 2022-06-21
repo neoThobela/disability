@@ -61,13 +61,22 @@ width: 84px;
     height:52px;
 }
 .mainContainer{
-    height:calc(80vh - 175px);
+    height:calc(80vh - 160px);
 }
 .backgroundColorGrad{
  background-image: url("Assets/Web/Images/backgroundImage.png");
  background-repeat: no-repeat;
  background-size: cover;
-
+}
+.icons{
+    font-size:3em!important;
+    width: 48px!important;
+}
+.width50{
+    width:50%;
+}
+.width40{
+    width:40%;
 }
 .whitebg{
   background-color:white;  
@@ -83,5 +92,18 @@ width: 84px;
     height:10vh
 }
 .width80{
-    width:80%;
+    width:80%;}
+.mat-horizontal-content-container {
+    padding:0!important;
 }
+.mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+    background-color: $orange!important;
+    color: #fff!important;
+    border: 1px solid $orange!important;
+}
+
+mat-step-header .mat-step-icon {
+    background-color: $white!important;
+    color:$gray!important;
+    border: 1px solid $gray!important;
+    }
