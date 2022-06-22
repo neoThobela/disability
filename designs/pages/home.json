@@ -128,7 +128,7 @@
         "z": "sd_MGFKJUJF2FSc1BSu",
         "viewType": "common",
         "nodeType": "flow",
-        "name": "",
+        "name": " ",
         "script": "page.protection_types = [\n  { \"icon\": \"accessible\", \"paragraph\": \"Disability Insurance\" },\n  { \"icon\": \"airport_shuttle\", \"paragraph\": \"Accidental Insurance\" },\n  { \"icon\": \"group_add\", \"paragraph\": \"Life Insurance\" },\n  { \"icon\": \"grain\", \"paragraph\": \"Discount Plans\" },\n  \n]\n",
         "functionName": "sd_AEMcD6fhKDQshuFN",
         "category": "Function",
@@ -140,5 +140,23 @@
         "__n_excludedFromValidation__": {},
         "generateNext": false,
         "generated": true
+    },
+    {
+        "id": "sd_wWVMvcyQRnrBk5MZ",
+        "type": "Script",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "[     {     \"icon\":\"home\",     \"paragraph\":\"i need to protect my income or family\"     },    \n  {     \"icon\":\"group\",     \"paragraph\":\"i need to protect my family\",     },     \n   {     \"icon\":\"account_balance_wallet\",     \"paragraph\":\"i need to protect my income\",     }, \n   ]",
+        "functionName": "sd_wWVMvcyQRnrBk5MZ",
+        "category": "Function",
+        "x": 380,
+        "y": 100,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true
     }
 ]

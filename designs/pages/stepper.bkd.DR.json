@@ -140,7 +140,9 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "mat-horizontal-stepper-heade"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },

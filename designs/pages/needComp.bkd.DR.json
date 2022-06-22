@@ -80,7 +80,7 @@
                 {
                     "_key": "class",
                     "_value": [
-                        "width40"
+                        "width60"
                     ],
                     "_type": "dav",
                     "_attrDef": "p"
@@ -93,7 +93,7 @@
                 },
                 {
                     "_key": "fxLayoutGap",
-                    "_value": "",
+                    "_value": "1.2em",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -105,7 +105,7 @@
                 },
                 {
                     "_key": "layoutAlign",
-                    "_value": "space-between",
+                    "_value": "center",
                     "_type": "a",
                     "_attrDef": "p"
                 },
@@ -148,13 +148,13 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "30",
+                        "_value": "80px",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "fxLayoutGap",
-                        "_value": "20px",
+                        "_value": "10px",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -210,6 +210,7 @@
                         {
                             "_key": "class",
                             "_value": [
+                                "myGrayText",
                                 "width100"
                             ],
                             "_type": "dav",
@@ -370,7 +371,11 @@
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "width136px",
+                                    "textAlignCenter",
+                                    "grayText"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },

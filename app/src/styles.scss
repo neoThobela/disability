@@ -16,6 +16,9 @@ $white:white;
 body{
     font-family: 'Poppins', sans-serif;
 }
+.myGrayText{
+    color:$gray;
+}
 .grayText{
     color:$gray;
     font-size:12px;
@@ -57,11 +60,14 @@ width: 84px;
     height:52px;
     border-bottom:#fbf2f2 0.1px solid;
 }
+.width136px{
+    width: 136px;
+}
 .footer{
     height:52px;
 }
 .mainContainer{
-    height:calc(80vh - 160px);
+    height:calc(80vh - 177px);
 }
 .backgroundColorGrad{
  background-image: url("Assets/Web/Images/backgroundImage.png");
@@ -71,12 +77,13 @@ width: 84px;
 .icons{
     font-size:3em!important;
     width: 48px!important;
+    height: 43px!important;
 }
 .width50{
     width:50%;
 }
-.width40{
-    width:40%;
+.width60{
+    width:60%;
 }
 .whitebg{
   background-color:white;  
@@ -95,6 +102,9 @@ width: 84px;
     width:80%;}
 .mat-horizontal-content-container {
     padding:0!important;
+}
+.mat-horizontal-stepper-header{
+      padding:0!important;
 }
 .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
     background-color: $orange!important;

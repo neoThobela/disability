@@ -1,11 +1,11 @@
 <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true">
-  <div fxLayout="row wrap" class="width40" fxLayoutAlign="space-between center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="30" fxLayoutGap="20px" fxLayoutAlign="center stretch" [fxShow]="true" *ngFor="let icon of selection">
-      <div fxLayout="row wrap" class="width100" fxLayoutAlign="center stretch" [fxShow]="true">
+  <div fxLayout="row wrap" class="width60" fxLayoutGap="1.2em" fxLayoutAlign="center center" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="80px" fxLayoutGap="10px" fxLayoutAlign="center stretch" [fxShow]="true" *ngFor="let icon of selection">
+      <div fxLayout="row wrap" class="myGrayText width100" fxLayoutAlign="center stretch" [fxShow]="true">
         <mat-icon class="icons">{{icon.icon}}</mat-icon>
       </div>
       <div fxLayout="row wrap" class="width100" fxLayoutAlign="center stretch" [fxShow]="true">
-        <p>
+        <p class="width136px textAlignCenter grayText">
           {{icon.paragraph}}
         </p>
       </div>
