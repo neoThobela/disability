@@ -1,0 +1,55 @@
+[
+    {
+        "id": "sd_XWYc3G7hZ1h9ksnS",
+        "type": "tab",
+        "createdDate": "2022-06-23T08:32:07.951Z",
+        "label": "salary",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "salaryComponent"
+    },
+    {
+        "id": "sd_mJSMrnB80lhRRqyr",
+        "type": "OnInit",
+        "z": "sd_XWYc3G7hZ1h9ksnS",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_mJSMrnB80lhRRqyr",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_AG0N4bDy3CA0o3a5"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "salaryComponent"
+    },
+    {
+        "id": "sd_AG0N4bDy3CA0o3a5",
+        "type": "PageVariables",
+        "z": "sd_XWYc3G7hZ1h9ksnS",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_AG0N4bDy3CA0o3a5",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

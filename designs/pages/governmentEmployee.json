@@ -1,0 +1,55 @@
+[
+    {
+        "id": "sd_L3ra3dHBI6P6nFwk",
+        "type": "tab",
+        "createdDate": "2022-06-23T12:38:36.637Z",
+        "label": "governmentEmployee",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "governmentEmployeeComponent"
+    },
+    {
+        "id": "sd_yI5QjaQksmkg6IqU",
+        "type": "OnInit",
+        "z": "sd_L3ra3dHBI6P6nFwk",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_yI5QjaQksmkg6IqU",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_248EJjl1Ewvu7VyT"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "governmentEmployeeComponent"
+    },
+    {
+        "id": "sd_248EJjl1Ewvu7VyT",
+        "type": "PageVariables",
+        "z": "sd_L3ra3dHBI6P6nFwk",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_248EJjl1Ewvu7VyT",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

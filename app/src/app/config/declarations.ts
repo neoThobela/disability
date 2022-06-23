@@ -15,6 +15,14 @@ window['neutrinos'] = {
 };
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-noicotineComponent
+import { noicotineComponent } from '../components/noicotine.component';
+//CORE_REFERENCE_IMPORT-governmentEmployeeComponent
+import { governmentEmployeeComponent } from '../components/governmentEmployee.component';
+//CORE_REFERENCE_IMPORT-diabilityHeaderComponent
+import { diabilityHeaderComponent } from '../components/diabilityHeader.component';
+//CORE_REFERENCE_IMPORT-salaryComponent
+import { salaryComponent } from '../components/salary.component';
 //CORE_REFERENCE_IMPORT-validationComponent
 import { validationComponent } from '../components/validation.component';
 //CORE_REFERENCE_IMPORT-employedComponent
@@ -73,6 +81,14 @@ export const appDeclarations = [
   PageNotFoundComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-noicotineComponent
+  noicotineComponent,
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-governmentEmployeeComponent
+  governmentEmployeeComponent,
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-diabilityHeaderComponent
+  diabilityHeaderComponent,
+  //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-salaryComponent
+  salaryComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-validationComponent
   validationComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-employedComponent
