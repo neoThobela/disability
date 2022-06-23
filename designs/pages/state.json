@@ -1,0 +1,102 @@
+[
+    {
+        "id": "sd_3aHneG68rV8R8zSK",
+        "type": "tab",
+        "createdDate": "2022-06-22T18:19:22.005Z",
+        "label": "state",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "stateComponent"
+    },
+    {
+        "id": "sd_ma5f0qm5awfQwTmK",
+        "type": "OnInit",
+        "z": "sd_3aHneG68rV8R8zSK",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_ma5f0qm5awfQwTmK",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_qANZEqMvR4fFiaBx"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "stateComponent"
+    },
+    {
+        "id": "sd_qANZEqMvR4fFiaBx",
+        "type": "PageVariables",
+        "z": "sd_3aHneG68rV8R8zSK",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "provinces",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "sd_qANZEqMvR4fFiaBx",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_4gsybZxSUMDbGPiP"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_4gsybZxSUMDbGPiP",
+        "type": "Script",
+        "z": "sd_3aHneG68rV8R8zSK",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.provice=[\"Eastern Cape\",\n\"Free State\",\n\"Gauteng\",\n\"KwaZulu-Natal\",\n\"Limpopo\",\n\"Mpumalanga\",\n\"Northern Cape\",\n\"North West\",\n\"Western Cape\"]",
+        "functionName": "sd_4gsybZxSUMDbGPiP",
+        "category": "Function",
+        "x": 300,
+        "y": 60,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_PxJdAFAIFkRx7Yp5",
+        "type": "Script",
+        "z": "sd_3aHneG68rV8R8zSK",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "",
+        "functionName": "sd_PxJdAFAIFkRx7Yp5",
+        "category": "Function",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true
+    }
+]

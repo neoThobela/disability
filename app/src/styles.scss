@@ -8,7 +8,8 @@ $orange:#DD601E;
 $lightOrange:rgba(221, 96, 30, 0.12);
 $gray:#BABFC7;
 $white:white;
-
+$blue:#1273A2;
+$themeBlack:#4B4B4B;
 *{
     margin:0;
     padding: 0;
@@ -18,6 +19,12 @@ body{
 }
 .myGrayText{
     color:$gray;
+}
+.bluetext{
+    color:$blue;
+}
+.blackText{
+color:$themeBlack;
 }
 .grayText{
     color:$gray;
@@ -63,11 +70,21 @@ width: 84px;
 .width136px{
     width: 136px;
 }
+.height163{
+height: 163%;
+}
+
 .footer{
     height:52px;
 }
 .mainContainer{
-    height:calc(80vh - 177px);
+    height:calc(80vh - 142px);
+}
+.width30{
+    width:30%;
+}
+.heightNotSure{
+        height: 435px;
 }
 .backgroundColorGrad{
  background-image: url("Assets/Web/Images/backgroundImage.png");
@@ -106,12 +123,35 @@ width: 84px;
 .mat-horizontal-stepper-header{
       padding:0!important;
 }
+.height26{
+height:26%;
+}
+.fitContent{
+    height:fit-content!important;
+    width:fit-content!important;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle{
+ background-color: $orange!important;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: $orange!important;
+}
+.mat-calendar-body-selected {
+    background-color: $orange!important;
+    color: #fff;
+}
 .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
     background-color: $orange!important;
     color: #fff!important;
     border: 1px solid $orange!important;
 }
-
+.mat-form-field-appearance-outline .mat-form-field-outline{
+ color:$orange!important;
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0px!important;
+    
+}
 mat-step-header .mat-step-icon {
     background-color: $white!important;
     color:$gray!important;

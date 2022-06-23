@@ -1,0 +1,20 @@
+<div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true">
+  <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+    <h3>
+      what is byour occupation?</h3>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+    <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;">
+      <mat-select placeholder="Select your occupation" [required]="false">
+        <ng-template ngFor let-option [ngForOf]="page.province" let-i="index">
+          <mat-option [value]="option.page.province"></mat-option>
+        </ng-template>
+      </mat-select>
+
+    </mat-form-field>
+  </div>
+  <div fxLayout="row wrap" class="width100" fxLayoutAlign="end stretch" [fxShow]="true">
+    <h6>
+      can&apos;t find your occupation?</h6>
+  </div>
+</div>

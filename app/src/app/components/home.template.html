@@ -1,26 +1,35 @@
 <div fxLayout="column wrap" class="backgroundColorGrad" fxLayoutAlign="center center" [fxShow]="true" fxFill>
   <div fxLayout="row wrap" class="whitebg width90" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="100" fxLayoutGap="2em" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="100" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
       <div fxLayout="row wrap" class="width100 navabar" fxLayoutAlign="start stretch" [fxShow]="true">
         <bh-toolbar class="width100"></bh-toolbar>
       </div>
       <div fxLayout="row wrap" class="mainContainer width100" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="column wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column " class="width100" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-stepper class="width100"></bh-stepper>
           </div>
           <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-howCanWeHelp class="width100"></bh-howCanWeHelp>
+            <bh-state class="width100"></bh-state>
           </div>
-          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngIf="page.protection_types">
-            <bh-needComp class="width100" [selection]="page.protection_types"></bh-needComp>
+          <div fxLayout="row wrap" class="textAlignCenter width100" fxLayoutAlign="center stretch" [fxShow]="true">
+            <div fxLayout="column wrap" class="textAlignCenter" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
+              <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+                <h5>
+                  Not sure?</h5>
+              </div>
+              <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+                <h6 class="bluetext">
+                  I Need Adivce</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div fxLayout="row wrap" class="footer width100" fxLayoutAlign="end stretch" [fxShow]="true">
         <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="end center" [fxShow]="true">
           <div fxLayout="row wrap" class="width90" fxLayoutGap="1em" fxLayoutAlign="end stretch" [fxShow]="true">
-            <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="width84 orangeBtn">Back</button></div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="width84 orangeBtn" (click)="disablilty()">Back</button></div>
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="width84 orangeBtndark" (click)="choose_product()">Next</button></div>
           </div>
         </div>

@@ -1,0 +1,27 @@
+<div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="space-between center" [fxShow]="true">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+    <h5>
+      Are you employed full-time and work atleast 30 hours per week?
+    </h5>
+  </div>
+  <div fxLayout="row wrap" class="width30" fxLayoutAlign="space-evenly stretch" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="0.5em" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="row wrap" class="blackText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <h5>
+          Yes</h5>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-radio-button [required]="false"></mat-radio-button>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="0.5em" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="row wrap" class="blackText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <h5>
+          No</h5>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-radio-button [required]="false"></mat-radio-button>
+      </div>
+    </div>
+  </div>
+</div>

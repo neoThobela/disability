@@ -1,6 +1,8 @@
 {
     "classes": [
         "myGrayText",
+        "bluetext",
+        "blackText",
         "grayText",
         "width100",
         "orangeText",
@@ -13,8 +15,11 @@
         "height100vh",
         "navabar",
         "width136px",
+        "height163",
         "footer",
         "mainContainer",
+        "width30",
+        "heightNotSure",
         "backgroundColorGrad",
         "icons",
         "width50",
@@ -26,10 +31,21 @@
         "width80",
         "mat-horizontal-content-container",
         "mat-horizontal-stepper-header",
+        "height26",
+        "fitContent",
+        "mat-radio-button",
+        "mat-accent",
+        "mat-radio-inner-circle",
+        "mat-radio-checked",
+        "mat-radio-outer-circle",
+        "mat-calendar-body-selected",
         "mat-step-header",
         "mat-step-icon-selected",
         "mat-step-icon-state-done",
         "mat-step-icon-state-edit",
+        "mat-form-field-appearance-outline",
+        "mat-form-field-outline",
+        "mat-form-field-infix",
         "mat-step-icon"
     ]
 }

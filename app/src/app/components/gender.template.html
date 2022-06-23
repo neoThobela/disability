@@ -1,0 +1,32 @@
+<div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="space-between center" [fxShow]="true">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+    <h5>
+      What was your gender at birth?</h5>
+  </div>
+  <div fxLayout="row wrap" class="width30" fxLayoutAlign="space-evenly stretch" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="0.5em" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="row wrap" class="myGrayText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-icon class="icons fitContent">face</mat-icon>
+      </div>
+      <div fxLayout="row wrap" class="blackText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <h5>
+          Male</h5>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-radio-button [required]="false"></mat-radio-button>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="0.5em" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="row wrap" class="myGrayText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-icon class="icons fitContent">face_4</mat-icon>
+      </div>
+      <div fxLayout="row wrap" class="blackText" fxLayoutAlign="center stretch" [fxShow]="true">
+        <h5>
+          Female</h5>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+        <mat-radio-button [required]="false"></mat-radio-button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+[
+    {
+        "id": "sd_MQ6iqse4WKVGyIXu",
+        "type": "tab",
+        "createdDate": "2022-06-22T11:55:22.047Z",
+        "label": "gender",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "genderComponent"
+    },
+    {
+        "id": "sd_57WPRRadGHd1Xe20",
+        "type": "OnInit",
+        "z": "sd_MQ6iqse4WKVGyIXu",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_57WPRRadGHd1Xe20",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_V8Cdw7sudscPXniK"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "genderComponent"
+    },
+    {
+        "id": "sd_V8Cdw7sudscPXniK",
+        "type": "PageVariables",
+        "z": "sd_MQ6iqse4WKVGyIXu",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_V8Cdw7sudscPXniK",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_qpVGRmIDxagQsswP",
+        "type": "Script",
+        "z": "sd_MQ6iqse4WKVGyIXu",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "",
+        "functionName": "sd_qpVGRmIDxagQsswP",
+        "category": "Function",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true
+    }
+]

@@ -64,7 +64,8 @@
         },
         "__n_excludedFromValidation__": {},
         "generateNext": false,
-        "generated": true
+        "generated": true,
+        "serviceName": "homeComponent"
     },
     {
         "id": "sd_eTy6eSHXGezqKmxG",
@@ -128,9 +129,9 @@
         "z": "sd_MGFKJUJF2FSc1BSu",
         "viewType": "common",
         "nodeType": "flow",
-        "name": " ",
+        "name": " protection_types",
         "script": "page.protection_types = [\n  { \"icon\": \"accessible\", \"paragraph\": \"Disability Insurance\" },\n  { \"icon\": \"airport_shuttle\", \"paragraph\": \"Accidental Insurance\" },\n  { \"icon\": \"group_add\", \"paragraph\": \"Life Insurance\" },\n  { \"icon\": \"grain\", \"paragraph\": \"Discount Plans\" },\n  \n]\n",
-        "functionName": "sd_AEMcD6fhKDQshuFN",
+        "functionName": "Protection_types",
         "category": "Function",
         "x": 200,
         "y": 200,
@@ -158,5 +159,48 @@
         ],
         "__n_excludedFromValidation__": {},
         "generateNext": true
+    },
+    {
+        "id": "sd_dFGbQqM5xJzcnVGx",
+        "type": "PageStart",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "disablilty",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "disablilty",
+        "category": "General",
+        "x": 100,
+        "y": 340,
+        "wires": [
+            [
+                "sd_aqIY1dvnTbYdo4zZ"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_aqIY1dvnTbYdo4zZ",
+        "type": "Script",
+        "z": "sd_MGFKJUJF2FSc1BSu",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.protection_types = [\n  // {\"title\":\"Unfortunatly, you are not eligable for the selected plan coverage. Not to worry, we have other solutions that may work for ypu !\"},\n  { \"icon\": \"accessible\", \"paragraph\": \"Disability Insurance\" },\n  { \"icon\": \"directions_car\", \"paragraph\": \"Accidental Insurance\" },\n  { \"icon\": \"group_add\", \"paragraph\": \"Life Insurance\" },\n  { \"icon\": \"account_balance_wallet\", \"paragraph\": \"Discount Plans\" },\n    { \"icon\": \"local_hospital\", \"paragraph\": \"Health Insurance\" },\n  { \"icon\": \"business_center\", \"paragraph\": \"Business Insurance\" }\n  \n]\n",
+        "functionName": "sd_aqIY1dvnTbYdo4zZ",
+        "category": "Function",
+        "x": 225,
+        "y": 340,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
     }
 ]

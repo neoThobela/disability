@@ -77,10 +77,24 @@ export class homeComponent {
         .constructFlowObject(this);
       bh.input = {};
       bh.local = {};
-      bh = this.sd_AEMcD6fhKDQshuFN(bh);
+      bh = this.Protection_types(bh);
       //appendnew_next_choose_product
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_KJAelUN1dukb2TKe');
+    }
+  }
+
+  disablilty(...others) {
+    try {
+      var bh: any = this.__page_injector__
+        .get(SDPageCommonService)
+        .constructFlowObject(this);
+      bh.input = {};
+      bh.local = {};
+      bh = this.sd_aqIY1dvnTbYdo4zZ(bh);
+      //appendnew_next_disablilty
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_dFGbQqM5xJzcnVGx');
     }
   }
 
@@ -114,7 +128,7 @@ export class homeComponent {
     }
   }
 
-  sd_AEMcD6fhKDQshuFN(bh) {
+  Protection_types(bh) {
     try {
       const page = this.page;
       page.protection_types = [
@@ -124,10 +138,30 @@ export class homeComponent {
         { icon: 'grain', paragraph: 'Discount Plans' },
       ];
 
-      //appendnew_next_sd_AEMcD6fhKDQshuFN
+      //appendnew_next_Protection_types
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_AEMcD6fhKDQshuFN');
+    }
+  }
+
+  sd_aqIY1dvnTbYdo4zZ(bh) {
+    try {
+      const page = this.page;
+      page.protection_types = [
+        // {"title":"Unfortunatly, you are not eligable for the selected plan coverage. Not to worry, we have other solutions that may work for ypu !"},
+        { icon: 'accessible', paragraph: 'Disability Insurance' },
+        { icon: 'directions_car', paragraph: 'Accidental Insurance' },
+        { icon: 'group_add', paragraph: 'Life Insurance' },
+        { icon: 'account_balance_wallet', paragraph: 'Discount Plans' },
+        { icon: 'local_hospital', paragraph: 'Health Insurance' },
+        { icon: 'business_center', paragraph: 'Business Insurance' },
+      ];
+
+      //appendnew_next_sd_aqIY1dvnTbYdo4zZ
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_aqIY1dvnTbYdo4zZ');
     }
   }
 

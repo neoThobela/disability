@@ -79,9 +79,7 @@
                 },
                 {
                     "_key": "class",
-                    "_value": [
-                        "width60"
-                    ],
+                    "_value": [],
                     "_type": "dav",
                     "_attrDef": "p"
                 },
@@ -105,7 +103,7 @@
                 },
                 {
                     "_key": "layoutAlign",
-                    "_value": "center",
+                    "_value": "space-evenly",
                     "_type": "a",
                     "_attrDef": "p"
                 },
@@ -142,13 +140,15 @@
                     },
                     {
                         "_key": "class",
-                        "_value": [],
+                        "_value": [
+                            "fitContent"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "80px",
+                        "_value": "130px",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -372,7 +372,7 @@
                             {
                                 "_key": "class",
                                 "_value": [
-                                    "width136px",
+                                    "blackText",
                                     "textAlignCenter",
                                     "grayText"
                                 ],
