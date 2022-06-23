@@ -2,7 +2,57 @@
     "routes": [
         {
             "component": "homeComponent",
-            "path": "home"
+            "path": "home",
+            "children": [
+                {
+                    "component": "dateOfBirthComponent",
+                    "path": "dateOfBirth"
+                },
+                {
+                    "component": "footerComponent",
+                    "path": "footer"
+                },
+                {
+                    "component": "genderComponent",
+                    "path": "gender"
+                },
+                {
+                    "component": "governmentEmployeeComponent",
+                    "path": "governmentEmployee"
+                },
+                {
+                    "component": "howCanWeHelpComponent",
+                    "path": "howCanWeHelp\t"
+                },
+                {
+                    "component": "marternityComponent",
+                    "path": "marternity"
+                },
+                {
+                    "component": "needCompComponent",
+                    "path": "needComp"
+                },
+                {
+                    "component": "stateComponent",
+                    "path": "state"
+                },
+                {
+                    "component": "occupationComponent",
+                    "path": "occupation"
+                },
+                {
+                    "component": "validationComponent",
+                    "path": "validation"
+                },
+                {
+                    "component": "salaryComponent",
+                    "path": "salary"
+                },
+                {
+                    "component": "noicotineComponent",
+                    "path": "noicotine"
+                }
+            ]
         },
         {
             "path": "''",

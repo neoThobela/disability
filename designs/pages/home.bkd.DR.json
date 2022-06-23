@@ -504,6 +504,32 @@
                                 ]
                             }
                         },
+                        "233d0e10-0ede-a3af-0975-ccbd83be0b01": {
+                            "paletteKey": "NG-RouterOutlet",
+                            "parentEditorKey": "5c82517c-4101-355e-cdf1-f35ff262e329",
+                            "commentid": null,
+                            "designerReference": [
+                                {
+                                    "_key": "componentLabel",
+                                    "_value": "Router Outlet",
+                                    "_type": "kv",
+                                    "_attrDef": "p",
+                                    "_useAsLabel": true
+                                },
+                                {
+                                    "_key": "(activate)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(deactivate)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                }
+                            ]
+                        },
                         "b2b64f7f-90cb-ac1a-f4ba-8c647dd9a176": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "5c82517c-4101-355e-cdf1-f35ff262e329",
